@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Takahiro Toma Portfolio</title>
+  
+  <!-- リセットCSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
+  
+  <!-- style.css -->
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans+JP:wght@300;400;500;700&family=Poppins:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+</head>
+  
+<body>
+    <header>
+      <div class="header_inner" id="top">
+        <div class="guide">
+          <nav>
+            <ul class="menu">
+              <li class=""><a href="#top">TOP</a></li>
+              <li class=""><a href="#works">WORKS</a></li>
+              <li class=""><a href="#about">ABOUT</a></li>
+            </ul>
+          </nav>
+        </div>
+          <div class="burger"></div>
+     </div>
+   </header>
+  
+  <main>
+    <section class="section">
+
+      <div class="absolute-line">
+        <img src="../portfolio usb/images/line1.png" class="line1">
+        <img src="../portfolio usb/images/line2.png" class="line2">
+        <img src="../portfolio usb/images/line3.png" class="line3">
+        
+        
+      </div>
+
+      <div class="video-container">
+           <video src="../portfolio usb/images/for the web 1.mp4" autoplay muted class="video1"></video>
+        <div class="absolute-text">
+          <h2>TAKAHIRO<br>TOMA</h2>
+          <h4>PORTFOLIO</h4>
+        </div>
+      </div>
+      
+      <div class="inner" id="works">
+      </div>
+    </section>
+    <section>
+      <div class="back-container">
+        <img src="../portfolio usb/images/back-ground3.png" class="grad">
+           <div class="absolute-text2">
+             <h5 class="fade-in fade-bottom">WORKS</h5>
+           </div>
+           <div class="image-container nrg fade-in fade-right">
+             <img src="../portfolio usb/images/workbacks.png">
+             <p class="title">TEAM DESIGN</p>
+           </div>
+
+           <div class="image-container jett fade-in fade-right">
+             <img src="../portfolio usb/images/workbacks.png">
+             <p class="title">ART THUBMNAIL</p>
+           </div>
+
+           <div class="image-container2 boostio fade-in fade-right">
+             <img src="../portfolio usb/images/workbacks-2.png">
+             <p class="title">ESPORTS POSTER</p>
+           </div>
+
+           <div class="image-container3 masters fade-in fade-right">
+             <img src="../portfolio usb/images/workbacks-2.png">
+             <p class="title1">EVENT</p>
+           </div>
+      
+           <div class="image-container3 air fade-in fade-right">
+             <img src="../portfolio usb/images/workbacks-2.png">
+             <p class="title">FLIER</p>
+           </div>
+
+           <a href="TEAMDESIGN.html">
+             <img class="nrg work1 fade-in fade-right up up:hover" src="../portfolio usb/images/works/for-nrgfin3.png">
+           </a>
+           <a href="ESPORTSPOSTER.html">
+             <img src="../portfolio usb/images/works/boostiolast.PNG" class="boostio work2 fade-in fade-right up up:hover">
+           </a>
+           <a href="ARTTHUBNAIL.html">
+             <img src="../portfolio usb/images/works/icebox-jett.png" class="jett work3 fade-in fade-right up up:hover">
+           </a>
+           <a href="EVENT.html">
+           <img src="../portfolio usb/images/works/valorant-masters-tokyo2.png" class="masters work4 fade-in fade-right up up:hover">
+           </a>
+           <a href="FLIER.html">
+           <img src="../portfolio usb/images/works/aircustom.png" class="air work5 fade-in fade-right up up:hover">
+          </a>
+      </div>
+      <div class="inner" id="about"></div>
+    </section>
+
+
+    <section>
+      <div class="back-container2">
+        <img src="../portfolio usb/images/back-ground3.png" class="grad">
+        <img src="../portfolio usb/images/Line5.png" class="line5">
+          <div class="absolute-text">
+            <h6 class="fade-in fade-bottom">ABOUT</h6>
+          </div>
+
+          <!-- ここからremake -->
+
+          <div class="about-container">
+            <div class="profile1 fade-in fade-right">
+                <div class="col">
+                  <img class="" src="../portfolio usb/images/profile2.png">
+                </div>
+                <div class="col2">
+                  <div class="text-container">
+                    <div class="deco">
+                      <div class="a"></div>
+                      <div class="b"></div>
+                      <div class="c"></div>
+                    </div>
+                    <h1>当麻 尊裕</h1>
+                    <p>2001年 奈良県に生まれ 高校生の頃にデザインを始める<br>その後 eSportsの分野を中心にSNSで活動をする</p>
+                    <h2>SKILL</h2>
+                      <div class="skilltable">
+                         <div class="tableleft">
+                           <p>Photoshop<br>Illustrator<br>Premire Pro<br>HTML & CSS</p>
+                         </div>
+                         <div class="tableright">
+                           <p class="stars">★★★★★<br>★★<br>★★<br>★</p>
+                         </div>
+                      </div>
+                    <h3>CONTACT</h3>
+                      <div class="contacttable">
+                        <div class="tableleft">
+                          <p>TEL<br>EMAIL<br>X (Twitter)</p>
+                        </div>
+                        <div class="tableright">
+                          <p>080-1473-2105<br>takahiro1106t@gmail.com<br>twitter.com/shimorain</p>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </section>
+  </main>
+
+   <footer>
+    <div class="inner">
+    </div>
+   </footer>
+
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+   <script src="main.js"></script>
+
+</body>
+
+</html>
