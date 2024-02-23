@@ -58,7 +58,7 @@ body, h1, h2, h3, p, ul, li, figure, figcaption, div {
     position:fixed;
     width: 30px;
     height: 30px;
-    background-image: url(../images/menu2.svg);
+    background-image: url(menu2.svg);
     background-size: 24px;
     background-position:center;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ body, h1, h2, h3, p, ul, li, figure, figcaption, div {
 } */
 
 .burger.is-active {
-    background-image: url(../images/close2.svg);
+    background-image: url(close2.svg);
     z-index: 15;
 }
 
