@@ -861,6 +861,20 @@ nav ul li a {
         z-index: 11;
     }
 
+    .burger {
+        position:fixed;
+        width: 30px;
+        height: 30px;
+        background-image: url(menu2.svg);
+        background-size: 24px;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin: 0 0 0 60px;
+        border-radius: 4px;
+        right: 8.33vw;
+        z-index: 15;
+    }
+
 /*     .burger {
             position:fixed;
             width: 40px;
