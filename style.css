@@ -1284,9 +1284,9 @@ nav ul li a {
 
     .burger {
         position:fixed;
-        width: 40px;
-        height: 40px;
-        background-image: url(../images/menu2.svg);
+        width: 30px;
+        height: 30px;
+        background-image: url(menu2.svg);
         background-size: 24px;
         background-position:center;
         background-repeat: no-repeat;
